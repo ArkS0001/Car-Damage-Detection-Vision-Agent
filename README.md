@@ -51,3 +51,14 @@ first using image processing to classify damaged parts and assess severity, then
                                                                           +----------------+
 
 ```
+
+
+```
++-------------+   +----------------+   +-------------------+   +---------------------+   +-----+
+|             |   |                |   |                   |   |                     |   |     |
+| Upload Car  |──>| Preprocess     |──>| Detect & Classify |──>| Generate Damage     |──>| End |
+| Image       |   | Image          |   | Damage            |   | Report (LLM)        |   |     |
+|             |   |                |   |                   |   |                     |   |     |
++-------------+   +----------------+   +-------------------+   +---------------------+   +-----+
+
+```
